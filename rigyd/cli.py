@@ -469,7 +469,7 @@ def build_parser() -> argparse.ArgumentParser:
     _add_common(p, export=True)
     p.set_defaults(fn=cmd_download)
 
-    p = sub.add_parser("simulate", help="run a physics demo on a completed job - 0 credits")
+    p = sub.add_parser("simulate", help="run a physics demo on a completed job - current simulation price")
     p.add_argument("job_id")
     p.add_argument("--scene", choices=["demo", "drop"])
     _add_common(p)

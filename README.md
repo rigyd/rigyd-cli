@@ -25,7 +25,7 @@ rigyd compositions submit <composition_id> --export all
 rigyd jobs list
 rigyd jobs get <job_id>
 rigyd download <job_id> --export mujoco       # re-download any job, 0 credits
-rigyd simulate <job_id> --scene drop          # physics demo video, 0 credits
+rigyd simulate <job_id> --scene drop          # physics demo video, current simulation price
 rigyd whoami                                  # user + credit balance
 ```
 
